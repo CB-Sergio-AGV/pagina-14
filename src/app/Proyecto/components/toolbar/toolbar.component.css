@@ -1,0 +1,32 @@
+/* 🔹 Barra de navegación */
+.nav-bar {
+  background: #00BFFF; /* Celeste */
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* 🔹 Botón del menú */
+.nav-bar button {
+  color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-bar button:hover {
+  transform: scale(1.1);
+}
+
+/* 🔹 Links de navegación */
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.nav-bar a:hover {
+  color: #FFD700; /* Amarillo dorado */
+}

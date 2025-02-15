@@ -1,0 +1,30 @@
+.mensaje-container {
+  text-align: center;
+  background: #fff0f3;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.mensaje-container h2 {
+  color: #ff4d79;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.mensaje-container p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.mensaje-imagen {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 15px auto;
+  display: block;
+}
